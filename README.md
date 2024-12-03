@@ -20,7 +20,16 @@ These 3 models all have different strengths and weaknesses, therefore providing 
 Logistic Regression is one of the most straightforward classification algorithms. It provides a probability of the target variable (likelihood of Bonding being Successful). Random Forests are excellent at avoiding overfitting and perform well even with noisy or incomplete data. It also allows you to assess the importance of different features in making the classification decision, which is valuable for understanding data patterns and improving model interpretability. Alternatively, ANNs can handle various data types, including structured data (tables), sequential data (date), and unstructured data.
 
 In our experiments, we tried to use the same metrics for each of the models to implement a fair comparison. 
-In our findings, we discovered that the most accurate model for our classification problem was Random Forests with an accuracy of 0.9487. This outperforms LR (0.9227) and ANN (0.9455). 
+
+The three models (Artificial Neural Network, Logistic Regression, and Random Forest) were evaluated on the dataset, each providing solid performance.
+
+ANN: Achieved an accuracy of 94.55%, with a strong precision and recall for both classes. It showed balanced performance with a macro average f1-score of 0.92 and a weighted average f1-score of 0.95.
+
+Logistic Regression: Performed slightly lower with an accuracy of 92.07%, particularly struggling with recall for the minority class (1.0). The model had a higher precision for class 0.0 but missed more instances of class 1.0 compared to ANN and Random Forest.
+
+Random Forest: Outperformed both the ANN and Logistic Regression models with an accuracy of 94.87%. It demonstrated excellent recall for class 1.0 and high precision and recall for class 0.0. The model's performance was highly balanced, with a macro average f1-score of 0.93 and a weighted average f1-score of 0.95.
+
+In summary, while all models performed well, Random Forest achieved the highest accuracy and best recall for the minority class, making it the most effective model for this task.
 Our result for Random Forest is as follows: 
 Accuracy: 0.9487
 
