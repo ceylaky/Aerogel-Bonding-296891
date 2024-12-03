@@ -32,7 +32,7 @@ Random Forest: Outperformed both the ANN and Logistic Regression models with an 
 In summary, while all models performed well, Random Forest achieved the highest accuracy and best recall for the minority class, making it the most effective model for this task.
 Our result for Random Forest is as follows: 
 
-Accuracy: 0.9487
+      Accuracy: 0.9487
 
       Classification Report:
                 precision    recall  f1-score   support
