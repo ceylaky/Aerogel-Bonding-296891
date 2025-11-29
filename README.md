@@ -1,4 +1,4 @@
-# Aerogel-Bonding-296891
+# Aerogel-Bonding
 Assima Amangeldina, Ceyla Kaya, Lorenzo Cimmino
 
 
